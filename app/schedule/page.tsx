@@ -1,7 +1,6 @@
 import Image from "next/image";
-
+import DaySchedule from "../components/conference-calendar";
 import headline_iamge from "@/public/bp-image.webp";
-import DaySchedule from "./components/conference-calendar";
 
 export default function SchedulePage() {
 	return (
