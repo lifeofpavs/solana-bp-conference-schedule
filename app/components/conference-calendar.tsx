@@ -130,7 +130,6 @@ export default function DaySchedule() {
 						backgroundColor: event.track_color,
 					}}
 					onMouseEnter={() => setHoveredEvent(event)}
-					onMouseLeave={() => setHoveredEvent(null)}
 				>
 					<div>
 						<div className="font-bold truncate">{event.name}</div>
