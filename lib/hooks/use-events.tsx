@@ -6690,6 +6690,7 @@ export default function useEvents() {
 			track_color: "#92BEE9",
 			type: "session",
 		},
+
 		{
 			companies: [],
 			date: "21 Sep",
@@ -6759,7 +6760,7 @@ export default function useEvents() {
 			},
 			[] as { track: string; dates: { date: string; events: typeof data }[] }[],
 		);
-	}, [data]);
+	}, []);
 
 	return filteredData;
 }
