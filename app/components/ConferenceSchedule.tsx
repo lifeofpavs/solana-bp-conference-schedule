@@ -18,52 +18,6 @@ import {
 } from "@/components/ui/tooltip";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
-const events = [
-	{
-		companies: [],
-		date: "20 Sep",
-		description: null,
-		floorplan: {
-			floorplan_id: 2113,
-			location_name: "Left Curve Stage",
-			marker_id: 242263,
-		},
-		has_livestream: false,
-		id_object: "2da9fe3bb34442c59b0f",
-		image_url: null,
-		interaction_tool_url: null,
-		is_favorite: false,
-		is_live: false,
-		is_viewable: true,
-		loc: "Left Curve Stage",
-		local_date: "20 Sep",
-		local_time: "12:50 PM - 12:55 PM",
-		media_content: null,
-		name: "Product Keynote: Sling",
-		speaker: [
-			{
-				companyname: "Sling Money",
-				fullname: "Mike Hudack",
-				id_agenda_speaker: 61615,
-				position: "CEO & Co-founder",
-				speaker_image:
-					"https://v5.airtableusercontent.com/v3/u/33/33/1726408800000/oMWq6bOePeFSO9s3ARamKg/rrSPb7h8b8Ald6iaDxSoO7d6G4B3cPKfuy2kaJqRxqiqNgh4jD8Ll0bc0lre7Gb5E6mRYZuD0yif8jFkgvnE2y0EPZSFZMkKFjOsF4nJzYFWrWo_YYv-fbzDLYPE9kDl640-bbZXHDjlLi7tl1UWuQ/K_QXG0nrQWwL7TY6y8NbTSQ5QIWCTPEAhURV7zx28PA",
-				tags: [],
-			},
-		],
-		speaker_photos: [
-			"https://v5.airtableusercontent.com/v3/u/33/33/1726408800000/oMWq6bOePeFSO9s3ARamKg/rrSPb7h8b8Ald6iaDxSoO7d6G4B3cPKfuy2kaJqRxqiqNgh4jD8Ll0bc0lre7Gb5E6mRYZuD0yif8jFkgvnE2y0EPZSFZMkKFjOsF4nJzYFWrWo_YYv-fbzDLYPE9kDl640-bbZXHDjlLi7tl1UWuQ/K_QXG0nrQWwL7TY6y8NbTSQ5QIWCTPEAhURV7zx28PA",
-		],
-		summary: null,
-		tags: [],
-		time: "12:50 PM - 12:55 PM",
-		timestamp: 1726836600000,
-		timestamp_end: 1726836900000,
-		track: "Left Curve Stage",
-		track_color: "#A7D5D4",
-		type: "session",
-	},
-];
 export default function ConferenceSchedule() {
 	const [activeTab, setActiveTab] = useState("Left Curve Stage");
 
